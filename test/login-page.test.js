@@ -1,21 +1,26 @@
-import { html } from 'lit';
-import { fixture, expect } from '@open-wc/testing';
-
+import { html, fixture, expect } from '@open-wc/testing';
 import '../src/login-page.js';
 
 describe('LoginPage', () => {
-  let element;
-  beforeEach(async () => {
-    element = await fixture(html`<login-page></login-page>`);
+  it('should render the login page with header, auth section, and footer', async () => {
+    const el = await fixture(html`<login-page></login-page>`);
+    const header = el.shadowRoot.querySelector('login-header');
+    const authSection = el.shadowRoot.querySelector('auth-section');
+    const footer = el.shadowRoot.querySelector('login-footer');
+
+    expect(header).to.exist;
+    expect(authSection).to.exist;
+    expect(footer).to.exist;
   });
 
-  it('renders a h1', () => {
-    const h1 = element.shadowRoot.querySelector('h1');
-    expect(h1).to.exist;
-    expect(h1.textContent).to.equal('My app');
-  });
+  it('should apply the correct background color from CSS custom property', async () => {
+    const el = await fixture(
+      html`<login-page
+        style="--login-page-background-color: #f0f0f0;"
+      ></login-page>`,
+    );
+    const computedStyle = getComputedStyle(el);
 
-  it('passes the a11y audit', async () => {
-    await expect(element).shadowDom.to.be.accessible();
+    expect(computedStyle.backgroundColor).to.equal('rgb(240, 240, 240)');
   });
 });

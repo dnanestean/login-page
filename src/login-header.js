@@ -4,7 +4,7 @@ class Header extends LitElement {
   static styles = css`
     header {
       background: #3f6b8e;
-      color: white;
+      color: #fff;
       padding: 1em;
       text-align: center;
       display: flex;
@@ -16,7 +16,7 @@ class Header extends LitElement {
       gap: 1em;
     }
     a {
-      color: white;
+      color: #fff;
       text-decoration: none;
       font-weight: bold;
     }
