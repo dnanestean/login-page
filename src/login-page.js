@@ -1,4 +1,5 @@
 import { LitElement, html, css } from 'lit';
+import './login-header.js';
 
 class LoginPage extends LitElement {
   static properties = {
@@ -18,6 +19,7 @@ class LoginPage extends LitElement {
 
   render() {
     return html`
+      <login-header></login-header>
       <main>
         <h1>${this.header}</h1>
       </main>
