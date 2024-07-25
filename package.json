@@ -13,14 +13,18 @@
     "test": "web-test-runner --coverage",
     "test:watch": "web-test-runner --watch",
     "analyze": "cem analyze --litelement",
-    "start": "web-dev-server"
+    "start": "web-dev-server",
+    "build": "rimraf dist && rollup -c rollup.config.js",
+    "start:build": "npm run build && es-dev-server --root-dir dist --app-index index.html --compatibility none --open"
   },
   "dependencies": {
     "@lion/ui": "^0.7.5",
+    "deepmerge": "^4.3.1",
     "lit": "^3.1.4"
   },
   "devDependencies": {
     "@custom-elements-manifest/analyzer": "^0.10.3",
+    "@open-wc/building-rollup": "^3.0.2",
     "@open-wc/eslint-config": "^12.0.3",
     "@open-wc/testing": "^4.0.0",
     "@testing-library/dom": "^10.4.0",
@@ -28,11 +32,14 @@
     "@testing-library/user-event": "^14.5.2",
     "@web/dev-server": "^0.4.6",
     "@web/test-runner": "^0.18.2",
+    "es-dev-server": "^2.1.0",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
     "husky": "^9.0.11",
     "lint-staged": "^15.2.7",
     "prettier": "^3.3.2",
+    "rimraf": "^6.0.1",
+    "rollup": "^4.19.0",
     "vitest": "^2.0.4"
   },
   "eslintConfig": {
