@@ -15,6 +15,7 @@
     "start": "web-dev-server"
   },
   "dependencies": {
+    "@lion/ui": "^0.7.5",
     "lit": "^3.1.4"
   },
   "devDependencies": {

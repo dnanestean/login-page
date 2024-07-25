@@ -1,6 +1,7 @@
 import { LitElement, html, css } from 'lit';
 import './login-header.js';
 import './login-footer.js';
+import './auth-section.js';
 
 class LoginPage extends LitElement {
   static properties = {
@@ -13,16 +14,11 @@ class LoginPage extends LitElement {
     }
   `;
 
-  constructor() {
-    super();
-    this.header = 'Login Page';
-  }
-
   render() {
     return html`
       <login-header></login-header>
       <main>
-        <h1>${this.header}</h1>
+        <auth-section></auth-section>
       </main>
       <login-footer></login-footer>
     `;
