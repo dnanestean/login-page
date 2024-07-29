@@ -1,0 +1,1 @@
+{"version":3,"file":"cs-CZ-CrMHiKpj.js","sources":["../node_modules/@lion/ui/components/form-core/translations/cs-CZ.js"],"sourcesContent":["import cs from './cs.js';\n\nexport default {\n  ...cs,\n};\n"],"names":["csCZ","cs"],"mappings":"gCAEA,IAAeA,EAAA,IACVC","x_google_ignoreList":[0]}

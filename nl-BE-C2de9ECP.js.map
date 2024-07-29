@@ -1,0 +1,1 @@
+{"version":3,"file":"nl-BE-C2de9ECP.js","sources":["../node_modules/@lion/ui/components/form-core/translations/nl-BE.js"],"sourcesContent":["import nl from './nl.js';\n\nexport default {\n  ...nl,\n};\n"],"names":["nlBE","nl"],"mappings":"gCAEA,IAAeA,EAAA,IACVC","x_google_ignoreList":[0]}

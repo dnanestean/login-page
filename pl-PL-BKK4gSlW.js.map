@@ -1,0 +1,1 @@
+{"version":3,"file":"pl-PL-BKK4gSlW.js","sources":["../node_modules/@lion/ui/components/form-core/translations/pl-PL.js"],"sourcesContent":["import pl from './pl.js';\n\nexport default {\n  ...pl,\n};\n"],"names":["plPL","pl"],"mappings":"gCAEA,IAAeA,EAAA,IACVC","x_google_ignoreList":[0]}

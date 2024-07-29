@@ -1,0 +1,1 @@
+{"version":3,"file":"en-AU-DSDip-iY.js","sources":["../node_modules/@lion/ui/components/form-core/translations/en-AU.js"],"sourcesContent":["import en from './en.js';\n\nexport default {\n  ...en,\n};\n"],"names":["enAU","en"],"mappings":"gCAEA,IAAeA,EAAA,IACVC","x_google_ignoreList":[0]}

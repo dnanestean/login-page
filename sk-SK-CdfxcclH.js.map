@@ -1,0 +1,1 @@
+{"version":3,"file":"sk-SK-CdfxcclH.js","sources":["../node_modules/@lion/ui/components/form-core/translations/sk-SK.js"],"sourcesContent":["import sk from './sk.js';\n\nexport default {\n  ...sk,\n};\n"],"names":["skSK","sk"],"mappings":"gCAEA,IAAeA,EAAA,IACVC","x_google_ignoreList":[0]}

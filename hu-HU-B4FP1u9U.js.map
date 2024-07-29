@@ -1,0 +1,1 @@
+{"version":3,"file":"hu-HU-B4FP1u9U.js","sources":["../node_modules/@lion/ui/components/form-core/translations/hu-HU.js"],"sourcesContent":["import hu from './hu.js';\n\nexport default {\n  ...hu,\n};\n"],"names":["huHU","hu"],"mappings":"gCAEA,IAAeA,EAAA,IACVC","x_google_ignoreList":[0]}

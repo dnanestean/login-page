@@ -1,0 +1,1 @@
+{"version":3,"file":"es-ES-BqG6wgVW.js","sources":["../node_modules/@lion/ui/components/form-core/translations/es-ES.js"],"sourcesContent":["import es from './es.js';\n\nexport default {\n  ...es,\n};\n"],"names":["esES","es"],"mappings":"gCAEA,IAAeA,EAAA,IACVC","x_google_ignoreList":[0]}

@@ -1,0 +1,1 @@
+{"version":3,"file":"it-IT-CRg1gsLg.js","sources":["../node_modules/@lion/ui/components/form-core/translations/it-IT.js"],"sourcesContent":["import it from './it.js';\n\nexport default {\n  ...it,\n};\n"],"names":["itIT","it"],"mappings":"gCAEA,IAAeA,EAAA,IACVC","x_google_ignoreList":[0]}

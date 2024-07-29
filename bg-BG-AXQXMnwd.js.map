@@ -1,0 +1,1 @@
+{"version":3,"file":"bg-BG-AXQXMnwd.js","sources":["../node_modules/@lion/ui/components/form-core/translations/bg-BG.js"],"sourcesContent":["import bg from './bg.js';\n\nexport default {\n  ...bg,\n};\n"],"names":["bgBG","bg"],"mappings":"gCAEA,IAAeA,EAAA,IACVC","x_google_ignoreList":[0]}
